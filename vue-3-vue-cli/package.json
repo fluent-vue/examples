@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "vue-cli-service build",
-    "start": "vue-cli-service serve"
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "@fluent/bundle": "^0.17.0",
