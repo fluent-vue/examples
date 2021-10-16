@@ -35,22 +35,38 @@ if (!Object.hasOwnProperty.call(Vue.prototype, 'currentLocale')) {
     },
 
     set (locale) {
-      if (locale === 'en') {
-        currentLocale = locale
-        fluent.bundles = [enBundle]
-      }
-      
-      if (locale === 'uk') {
-        currentLocale = locale
-        fluent.bundles = [ukBundle]
-      }
-    
-      // Not sure why this is needed with nuxt 2
-      for (const component of components.keys()) {
-        component.$forceUpdate()
-      }
+      setLocale(locale)
     }
   })
 }
 
+function setLocale (locale) {
+  if (locale === 'en') {
+    currentLocale = locale
+    fluent.bundles = [enBundle]
+  }
+  
+  if (locale === 'uk') {
+    currentLocale = locale
+    fluent.bundles = [ukBundle]
+  }
+
+  // Not sure why this is needed with nuxt 2
+  for (const component of components.keys()) {
+    component.$forceUpdate()
+  }
+}
+
 export const supportedLocales = [ 'en', 'uk' ]
+
+if (module.hot) {
+  module.hot.accept('~/locales/en.ftl', function () {
+    enBundle.addResource(new FluentResource(enMessages), { allowOverrides: true })
+    setLocale(currentLocale)
+  });
+
+  module.hot.accept('~/locales/uk.ftl', function () {
+    ukBundle.addResource(new FluentResource(ukMessages), { allowOverrides: true })
+    setLocale(currentLocale)
+  });
+}
