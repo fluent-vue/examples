@@ -20,10 +20,10 @@
         <SwitchLocale />
 
         <p class="mt-4 pt-1">
-          Directive: <span v-t:message-from-ftl />
+          Directive: <span class="text-gray-600" v-t:message-from-ftl />
         </p>
         <p class="mt-4 pt-1">
-          Method: <span>{{ $t('message-from-ftl') }}</span>
+          Method: <span class="text-gray-600">{{ $t('message-from-ftl') }}</span>
         </p>
       </div>
       <div class="flex justify-center pt-4 space-x-2">
