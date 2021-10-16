@@ -9,8 +9,15 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@fluent/bundle": "^0.17.0",
+    "@vue/composition-api": "^1.2.4",
     "core-js": "^3.15.1",
+    "fluent-vue": "^3.0.0",
     "nuxt": "^2.15.7"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxt/types": "^2.15.8",
+    "fluent-vue-loader": "^3.0.0",
+    "raw-loader": "^4.0.2"
+  }
 }
