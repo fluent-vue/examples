@@ -33,11 +33,11 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '~/modules/fluent-vue.js'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '~/modules/fluent-vue.js'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
