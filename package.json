@@ -1,0 +1,8 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "fluent-vue examples",
+  "devDependencies": {
+    "execa": "^6.0.0"
+  }
+}
