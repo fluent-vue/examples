@@ -3,7 +3,7 @@ import { FluentBundle, FluentResource } from '@fluent/bundle'
 import ftl from '@fluent/dedent'
 import { createFluentVue } from 'fluent-vue'
 
-import App from './App'
+import App from './App.vue'
 
 const bundle = new FluentBundle('en')
 
