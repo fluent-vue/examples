@@ -1,25 +1,25 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@fluent/bundle': ^0.17.0
-  '@nuxt/types': ^2.15.8
-  '@vue/composition-api': ^1.2.4
-  core-js: ^3.15.1
-  fluent-vue: ^3.0.0
-  fluent-vue-loader: ^3.0.0
-  nuxt: ^2.15.7
-  raw-loader: ^4.0.2
+  '@fluent/bundle': 0.17.0
+  '@nuxt/types': 2.15.8
+  '@vue/composition-api': 1.4.0
+  core-js: 3.19.1
+  fluent-vue: 3.0.0
+  fluent-vue-loader: 3.0.1
+  nuxt: 2.15.8
+  raw-loader: 4.0.2
 
 dependencies:
   '@fluent/bundle': 0.17.0
-  '@vue/composition-api': 1.2.4
-  core-js: 3.18.3
-  fluent-vue: 3.0.0_f4233f3fe894976632633c4275b198ab
+  '@vue/composition-api': 1.4.0
+  core-js: 3.19.1
+  fluent-vue: 3.0.0_c381a03e443d17687aa451eb457efcfe
   nuxt: 2.15.8
 
 devDependencies:
   '@nuxt/types': 2.15.8
-  fluent-vue-loader: 3.0.0
+  fluent-vue-loader: 3.0.1
   raw-loader: 4.0.2
 
 packages:
@@ -1964,8 +1964,8 @@ packages:
       prettier: 1.19.1
     dev: false
 
-  /@vue/composition-api/1.2.4:
-    resolution: {integrity: sha512-8LVV6O4slsroBhRKxly3em5H3D5Q+ggPG75lcilh5MfLGs69LEdwm6dKhSOXtQoSyMGF4Rq30E4DcouopM8Rxg==}
+  /@vue/composition-api/1.4.0:
+    resolution: {integrity: sha512-fanqJw1cqhkfS1dcpFY52CeR0aWDBr7ub/0ObPWqMnNPdRsMi1gX04Q3aLeRtJEuVeCFewNbqvkPskkSPTVaXQ==}
     peerDependencies:
       vue: '>= 2.5 < 3'
     dependencies:
@@ -3036,8 +3036,8 @@ packages:
     requiresBuild: true
     dev: false
 
-  /core-js/3.18.3:
-    resolution: {integrity: sha512-tReEhtMReZaPFVw7dajMx0vlsz3oOb8ajgPoHVYGxr8ErnZ6PcYEvvmjGmXlfpnxpkYSdOQttjB+MvVbCGfvLw==}
+  /core-js/3.19.1:
+    resolution: {integrity: sha512-Tnc7E9iKd/b/ff7GFbhwPVzJzPztGrChB8X8GLqoYGdEOG8IpLnK1xPyo3ZoO3HsK6TodJS58VGPOxA+hLHQMg==}
     requiresBuild: true
     dev: false
 
@@ -3917,13 +3917,11 @@ packages:
     deprecated: flatten is deprecated in favor of utility frameworks such as lodash.
     dev: false
 
-  /fluent-vue-loader/3.0.0:
-    resolution: {integrity: sha512-X13NnJZg00RGatQHctLbZBe+SpxrJzrUpjODy6JGXZJG+Rya2cuNW21Kpd3k5oUqlZaOdjBIQFP+rSwiN/9w5Q==}
-    dependencies:
-      loader-utils: 2.0.0
+  /fluent-vue-loader/3.0.1:
+    resolution: {integrity: sha512-JjVAhde7kX3PlUDPYAU31aavlu5OIklbOwkT+/9C6HbLV9N9z1J0kHmBEW66APyKqvfiC/IHSFr9IS1/iecsoA==}
     dev: true
 
-  /fluent-vue/3.0.0_f4233f3fe894976632633c4275b198ab:
+  /fluent-vue/3.0.0_c381a03e443d17687aa451eb457efcfe:
     resolution: {integrity: sha512-nHspmM4Dmr7c5YvcoIZopQ/PgoujrPb2fzbbGRK1FdeCqahRs9UpeBMdcxUPsoZcshd1N0o8nJuQnng7AKFb3Q==}
     peerDependencies:
       '@fluent/bundle': '>=0.17.0'
@@ -3935,10 +3933,10 @@ packages:
     dependencies:
       '@fluent/bundle': 0.17.0
       '@fluent/sequence': 0.7.0_@fluent+bundle@0.17.0
-      '@vue/composition-api': 1.2.4
+      '@vue/composition-api': 1.4.0
       cached-iterable: 0.3.0
       tslib: 2.3.1
-      vue-demi: 0.11.4_@vue+composition-api@1.2.4
+      vue-demi: 0.12.1_@vue+composition-api@1.4.0
     dev: false
 
   /flush-write-stream/1.1.1:
@@ -7878,8 +7876,8 @@ packages:
     resolution: {integrity: sha512-vKl1skEKn8EK9f8P2ZzhRnuaRHLHrlt1sbRmazlvsx6EiC3A8oWF8YCBrMJzoN+W3OnElwIGbVjsx6/xelY1AA==}
     dev: false
 
-  /vue-demi/0.11.4_@vue+composition-api@1.2.4:
-    resolution: {integrity: sha512-/3xFwzSykLW2HiiLie43a+FFgNOcokbBJ+fzvFXd0r2T8MYohqvphUyDQ8lbAwzQ3Dlcrb1c9ykifGkhSIAk6A==}
+  /vue-demi/0.12.1_@vue+composition-api@1.4.0:
+    resolution: {integrity: sha512-QL3ny+wX8c6Xm1/EZylbgzdoDolye+VpCXRhI2hug9dJTP3OUJ3lmiKN3CsVV3mOJKwFi0nsstbgob0vG7aoIw==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
@@ -7890,7 +7888,7 @@ packages:
       '@vue/composition-api':
         optional: true
     dependencies:
-      '@vue/composition-api': 1.2.4
+      '@vue/composition-api': 1.4.0
     dev: false
 
   /vue-hot-reload-api/2.3.4:
