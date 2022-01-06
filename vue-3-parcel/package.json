@@ -7,14 +7,14 @@
     "build": "parcel build public/index.html"
   },
   "dependencies": {
-    "@fluent/bundle": "0.17.0",
+    "@fluent/bundle": "0.17.1",
     "@fluent/dedent": "0.4.0",
     "fluent-vue": "3.0.0",
-    "vue": "3.2.22"
+    "vue": "3.2.26"
   },
   "devDependencies": {
-    "@parcel/transformer-vue": "2.0.0-rc.0",
-    "parcel": "2.0.0-rc.0"
+    "@parcel/transformer-vue": "2.1.1",
+    "parcel": "2.1.1"
   },
   "browserslist": [
     "last 1 Chrome versions"
