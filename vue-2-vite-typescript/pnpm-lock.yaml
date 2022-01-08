@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@fluent/bundle': 0.17.1
   '@vue/composition-api': 1.4.3
+  '@vue/runtime-dom': ^3.2.26
   fluent-vue: 3.0.0
   rollup-plugin-fluent-vue: 3.0.0
   typescript: 4.5.4
@@ -19,6 +20,7 @@ dependencies:
   vue: 2.6.14
 
 devDependencies:
+  '@vue/runtime-dom': 3.2.26
   rollup-plugin-fluent-vue: 3.0.0
   typescript: 4.5.4
   vite: 2.7.10
@@ -579,6 +581,21 @@ packages:
     resolution: {integrity: sha512-h38bxCZLW6oFJVDlCcAiUKFnXI8xP8d+eO0pcDxx+7dQfSPje2AO6M9S9QO6MrxQB7fGP0DH0dYQ8ksf6hrXKQ==}
     dependencies:
       '@vue/shared': 3.2.26
+    dev: true
+
+  /@vue/runtime-core/3.2.26:
+    resolution: {integrity: sha512-BcYi7qZ9Nn+CJDJrHQ6Zsmxei2hDW0L6AB4vPvUQGBm2fZyC0GXd/4nVbyA2ubmuhctD5RbYY8L+5GUJszv9mQ==}
+    dependencies:
+      '@vue/reactivity': 3.2.26
+      '@vue/shared': 3.2.26
+    dev: true
+
+  /@vue/runtime-dom/3.2.26:
+    resolution: {integrity: sha512-dY56UIiZI+gjc4e8JQBwAifljyexfVCkIAu/WX8snh8vSOt/gMSEGwPRcl2UpYpBYeyExV8WCbgvwWRNt9cHhQ==}
+    dependencies:
+      '@vue/runtime-core': 3.2.26
+      '@vue/shared': 3.2.26
+      csstype: 2.6.19
     dev: true
 
   /@vue/shared/3.2.26:
@@ -1149,6 +1166,10 @@ packages:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
     engines: {node: '>=4'}
     hasBin: true
+    dev: true
+
+  /csstype/2.6.19:
+    resolution: {integrity: sha512-ZVxXaNy28/k3kJg0Fou5MiYpp88j7H9hLZp8PDC3jV0WFjfH5E9xHb56L0W59cPbKbcHXeP4qyT8PrHp8t6LcQ==}
     dev: true
 
   /de-indent/1.0.2:
@@ -1882,8 +1903,8 @@ packages:
       jsesc: 0.5.0
     dev: true
 
-  /request-light/0.5.6:
-    resolution: {integrity: sha512-mIfRkYujBF6qQQi+uJGHFzYD2P7WwfIMyJ3/DcTtOFB3iypwIVOXmsr3RMnFwTJRVcYLLZdjkIx43E8Zn2hRng==}
+  /request-light/0.5.7:
+    resolution: {integrity: sha512-i/wKzvcx7Er8tZnvqSxWuNO5ZGggu2UgZAqj/RyZ0si7lBTXL7kZiI/dWxzxnQjaY7s5HEy1qK21Do4Ncr6cVw==}
     dev: true
 
   /resolve/1.20.0:
@@ -2193,7 +2214,7 @@ packages:
       '@vscode/emmet-helper': 2.8.3
       '@vue/reactivity': 3.2.26
       '@vue/shared': 3.2.26
-      request-light: 0.5.6
+      request-light: 0.5.7
       upath: 2.0.1
       vscode-css-languageservice: 5.1.9
       vscode-html-languageservice: 4.2.1
