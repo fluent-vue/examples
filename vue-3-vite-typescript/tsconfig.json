@@ -4,7 +4,7 @@
     "module": "esnext",
     "strict": true,
     "noEmit": true,
-    "moduleResolution": "node",
-    "types": []
-  }
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
