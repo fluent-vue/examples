@@ -11,7 +11,7 @@
     "@fluent/dedent": "0.4.0",
     "@vue/composition-api": "1.4.3",
     "fluent-vue": "3.0.0",
-    "vue": "2.6.14"
+    "vue": "3.2.30"
   },
   "devDependencies": {
     "fluent-vue-loader": "3.0.1",
