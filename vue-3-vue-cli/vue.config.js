@@ -1,8 +1,7 @@
+const { SFCFluentPlugin } = require('unplugin-fluent-vue/webpack')
+
 module.exports = {
   configureWebpack: (config) => {
-    config.module.rules.push({
-      resourceQuery: /blockType=fluent/,
-      loader: 'fluent-vue-loader'
-    })
+    config.plugins.push(SFCFluentPlugin())
   }
 }

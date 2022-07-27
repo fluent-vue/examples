@@ -1,6 +1,9 @@
 import { createVuePlugin } from 'vite-plugin-vue2'
-import fluentPlugin from 'rollup-plugin-fluent-vue'
+import { SFCFluentPlugin } from 'unplugin-fluent-vue/vite'
 
 export default {
-  plugins: [createVuePlugin(), fluentPlugin({ vue: '2' })]
+  plugins: [
+    createVuePlugin(),
+    SFCFluentPlugin()
+  ]
 }
