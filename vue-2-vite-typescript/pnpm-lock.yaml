@@ -6,7 +6,7 @@ specifiers:
   '@vue/runtime-dom': 3.2.26
   fluent-vue: 3.0.0
   typescript: 4.5.4
-  unplugin-fluent-vue: ^0.0.3
+  unplugin-fluent-vue: 0.0.3
   vite: 2.7.10
   vite-plugin-vue2: 2.0.2
   vue: 2.6.14
