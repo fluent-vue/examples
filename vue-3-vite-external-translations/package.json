@@ -1,5 +1,5 @@
 {
-  "name": "vue-2-vite-typescript",
+  "name": "vite-typescript-external-example",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -9,17 +9,15 @@
   },
   "dependencies": {
     "@fluent/bundle": "0.17.1",
-    "@vue/composition-api": "1.4.3",
     "fluent-vue": "3.0.0",
-    "vue": "2.6.14"
+    "vue": "3.2.26"
   },
   "devDependencies": {
-    "@vue/runtime-dom": "3.2.26",
+    "@vitejs/plugin-vue": "2.0.1",
+    "@vue/compiler-sfc": "3.2.26",
+    "unplugin-fluent-vue": "0.0.3",
     "typescript": "4.5.4",
-    "unplugin-fluent-vue": "^0.0.3",
     "vite": "2.7.10",
-    "vite-plugin-vue2": "2.0.2",
-    "vue-template-compiler": "2.6.14",
     "vue-tsc": "0.30.2"
   }
 }

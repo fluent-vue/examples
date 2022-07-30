@@ -1,13 +1,11 @@
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
+const { SFCFluentPlugin } = require('unplugin-fluent-vue/webpack')
+
 module.exports = {
   module: {
     rules: [
-      {
-        resourceQuery: /blockType=fluent/,
-        loader: 'fluent-vue-loader'
-      },
       {
         test: /\.vue$/,
         loader: 'vue-loader'
@@ -18,6 +16,7 @@ module.exports = {
     new VueLoaderPlugin(),
     new HtmlWebpackPlugin({
       template: 'src/index.html'
-    })
+    }),
+    SFCFluentPlugin()
   ]
 }

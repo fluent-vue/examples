@@ -1,6 +1,9 @@
 import vue from '@vitejs/plugin-vue'
-import fluentPlugin from 'rollup-plugin-fluent-vue'
+import { SFCFluentPlugin } from 'unplugin-fluent-vue/vite'
 
 export default {
-  plugins: [vue(), fluentPlugin()]
+  plugins: [
+    vue(),
+    SFCFluentPlugin(),
+  ]
 }
