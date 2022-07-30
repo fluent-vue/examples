@@ -3,18 +3,18 @@ lockfileVersion: 5.4
 specifiers:
   '@fluent/bundle': 0.17.1
   '@nuxt/types': 2.15.8
-  '@vue/composition-api': 1.4.3
-  core-js: 3.20.2
-  fluent-vue: 3.0.0
+  '@vue/composition-api': 1.7.0
+  core-js: 3.24.1
+  fluent-vue: 3.1.0
   fluent-vue-loader: 3.0.1
   nuxt: 2.15.8
   raw-loader: 4.0.2
 
 dependencies:
   '@fluent/bundle': 0.17.1
-  '@vue/composition-api': 1.4.3
-  core-js: 3.20.2
-  fluent-vue: 3.0.0_hvtgonrcftn4qymkdlcarnmheu
+  '@vue/composition-api': 1.7.0
+  core-js: 3.24.1
+  fluent-vue: 3.1.0_kdoigqlg4qgt267semyxgt66hy
   nuxt: 2.15.8
 
 devDependencies:
@@ -2136,12 +2136,10 @@ packages:
       - whiskers
     dev: false
 
-  /@vue/composition-api/1.4.3:
-    resolution: {integrity: sha512-Qp4rMbESO05/7/Imck027X5lPhbmMX/mtYSDvIMJ14PS4KHY/4GllnQbPEfsBEe1LECFE6HWx2k7HYgcuYNvpg==}
+  /@vue/composition-api/1.7.0:
+    resolution: {integrity: sha512-hxOgLYR+wjuPX9bkP2pAPlqUs98XxBoa9DSLyp1z6+YR92wC42PZcZKs4d+VRtcv4udOv041Kss+F6ap5nj8YA==}
     peerDependencies:
-      vue: '>= 2.5 < 3'
-    dependencies:
-      tslib: 2.3.1
+      vue: '>= 2.5 < 2.7'
     dev: false
 
   /@webassemblyjs/ast/1.9.0:
@@ -3377,12 +3375,12 @@ packages:
 
   /core-js/2.6.12:
     resolution: {integrity: sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==}
-    deprecated: core-js@<3.4 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.
+    deprecated: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
     requiresBuild: true
     dev: false
 
-  /core-js/3.20.2:
-    resolution: {integrity: sha512-nuqhq11DcOAbFBV4zCbKeGbKQsUDRqTX0oqx7AttUBuqe3h20ixsE039QHelbL6P4h+9kytVqyEtyZ6gsiwEYw==}
+  /core-js/3.24.1:
+    resolution: {integrity: sha512-0QTBSYSUZ6Gq21utGzkfITDylE8jWC9Ne1D2MrhvlsZBI1x39OdDIVbzSqtgMndIy6BlHxBXpMGqzZmnztg2rg==}
     requiresBuild: true
     dev: false
 
@@ -4277,8 +4275,9 @@ packages:
     resolution: {integrity: sha512-JjVAhde7kX3PlUDPYAU31aavlu5OIklbOwkT+/9C6HbLV9N9z1J0kHmBEW66APyKqvfiC/IHSFr9IS1/iecsoA==}
     dev: true
 
-  /fluent-vue/3.0.0_hvtgonrcftn4qymkdlcarnmheu:
-    resolution: {integrity: sha512-nHspmM4Dmr7c5YvcoIZopQ/PgoujrPb2fzbbGRK1FdeCqahRs9UpeBMdcxUPsoZcshd1N0o8nJuQnng7AKFb3Q==}
+  /fluent-vue/3.1.0_kdoigqlg4qgt267semyxgt66hy:
+    resolution: {integrity: sha512-VpZ2z6qCBq1WYwOqTUt9j3OCNP5oGVbtkQfEj4EdqAjE2fRWdHyHKq4HQV1guwlbpC5T2pP4g+vNlHGv0s7KPw==}
+    engines: {node: '>=12.0.0'}
     peerDependencies:
       '@fluent/bundle': '>=0.17.0'
       '@vue/composition-api': '>=1.0.0-rc.1'
@@ -4289,10 +4288,10 @@ packages:
     dependencies:
       '@fluent/bundle': 0.17.1
       '@fluent/sequence': 0.7.0_@fluent+bundle@0.17.1
-      '@vue/composition-api': 1.4.3
+      '@vue/composition-api': 1.7.0
       cached-iterable: 0.3.0
       tslib: 2.3.1
-      vue-demi: 0.13.6_@vue+composition-api@1.4.3
+      vue-demi: 0.13.6_@vue+composition-api@1.7.0
     dev: false
 
   /flush-write-stream/1.1.1:
@@ -8318,7 +8317,7 @@ packages:
     resolution: {integrity: sha512-vKl1skEKn8EK9f8P2ZzhRnuaRHLHrlt1sbRmazlvsx6EiC3A8oWF8YCBrMJzoN+W3OnElwIGbVjsx6/xelY1AA==}
     dev: false
 
-  /vue-demi/0.13.6_@vue+composition-api@1.4.3:
+  /vue-demi/0.13.6_@vue+composition-api@1.7.0:
     resolution: {integrity: sha512-02NYpxgyGE2kKGegRPYlNQSL1UWfA/+JqvzhGCOYjhfbLWXU5QQX0+9pAm/R2sCOPKr5NBxVIab7fvFU0B1RxQ==}
     engines: {node: '>=12'}
     hasBin: true
@@ -8330,7 +8329,7 @@ packages:
       '@vue/composition-api':
         optional: true
     dependencies:
-      '@vue/composition-api': 1.4.3
+      '@vue/composition-api': 1.7.0
     dev: false
 
   /vue-hot-reload-api/2.3.4:

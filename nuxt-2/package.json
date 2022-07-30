@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "@fluent/bundle": "0.17.1",
-    "@vue/composition-api": "1.4.3",
-    "core-js": "3.20.2",
-    "fluent-vue": "3.0.0",
+    "@vue/composition-api": "1.7.0",
+    "core-js": "3.24.1",
+    "fluent-vue": "3.1.0",
     "nuxt": "2.15.8"
   },
   "devDependencies": {
