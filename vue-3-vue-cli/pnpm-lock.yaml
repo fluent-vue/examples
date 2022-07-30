@@ -9,7 +9,7 @@ specifiers:
   '@vue/compiler-sfc': 3.2.26
   core-js: 3.20.2
   fluent-vue: 3.0.0
-  unplugin-fluent-vue: 0.0.2
+  unplugin-fluent-vue: 0.0.3
   vue: 3.2.26
 
 dependencies:
@@ -24,7 +24,7 @@ devDependencies:
   '@vue/cli-plugin-babel': 5.0.8_asenkryw3rbzfnujibuwa4wdam
   '@vue/cli-service': 5.0.8_qmqlxfjvm57st7acgkm745kjou
   '@vue/compiler-sfc': 3.2.26
-  unplugin-fluent-vue: 0.0.2
+  unplugin-fluent-vue: 0.0.3
 
 packages:
 
@@ -6072,8 +6072,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /unplugin-fluent-vue/0.0.2:
-    resolution: {integrity: sha512-pKH/P1q8s+xp4Q/tNI6nI1Nz8V2eaClVZXYMGks01p0acGAnwqyt10ztDxg6I111QLV0ZGwS2wtd6ZWS7rOpfw==}
+  /unplugin-fluent-vue/0.0.3:
+    resolution: {integrity: sha512-dp+IrJS4cGFriflxzZnUTy01VWiRkKi0ApokJkgNklYcB6m3hk1t1+ipUhYbbxCekx2CYbR2C4o6exM93kIEXw==}
     dependencies:
       '@rollup/pluginutils': 4.2.1
       magic-string: 0.26.2

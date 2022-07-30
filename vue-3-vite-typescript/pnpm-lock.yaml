@@ -6,7 +6,7 @@ specifiers:
   '@vue/compiler-sfc': 3.2.26
   fluent-vue: 3.0.0
   typescript: 4.5.4
-  unplugin-fluent-vue: 0.0.2
+  unplugin-fluent-vue: 0.0.3
   vite: 2.7.10
   vue: 3.2.26
   vue-tsc: 0.30.2
@@ -20,7 +20,7 @@ devDependencies:
   '@vitejs/plugin-vue': 2.0.1_vite@2.7.10+vue@3.2.26
   '@vue/compiler-sfc': 3.2.26
   typescript: 4.5.4
-  unplugin-fluent-vue: 0.0.2_vite@2.7.10
+  unplugin-fluent-vue: 0.0.3_vite@2.7.10
   vite: 2.7.10
   vue-tsc: 0.30.2_typescript@4.5.4
 
@@ -910,8 +910,8 @@ packages:
     hasBin: true
     dev: true
 
-  /unplugin-fluent-vue/0.0.2_vite@2.7.10:
-    resolution: {integrity: sha512-pKH/P1q8s+xp4Q/tNI6nI1Nz8V2eaClVZXYMGks01p0acGAnwqyt10ztDxg6I111QLV0ZGwS2wtd6ZWS7rOpfw==}
+  /unplugin-fluent-vue/0.0.3_vite@2.7.10:
+    resolution: {integrity: sha512-dp+IrJS4cGFriflxzZnUTy01VWiRkKi0ApokJkgNklYcB6m3hk1t1+ipUhYbbxCekx2CYbR2C4o6exM93kIEXw==}
     dependencies:
       '@rollup/pluginutils': 4.2.1
       magic-string: 0.26.2
