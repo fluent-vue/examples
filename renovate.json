@@ -17,7 +17,7 @@
     {
       "matchPackageNames": [
         "vue",
-        "fluent-vue-loader"
+        "vue-loader"
       ],
       "matchUpdateTypes": [
         "major"
