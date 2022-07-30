@@ -13,6 +13,16 @@
       "matchPackageNames": [
         "vite"
       ]
+    },
+    {
+      "matchPackageNames": [
+        "vue",
+        "fluent-vue-loader"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "enabled": false
     }
   ]
 }
