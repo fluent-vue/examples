@@ -9,7 +9,7 @@ specifiers:
   html-webpack-plugin: 5.5.0
   unplugin-fluent-vue: 0.0.3
   vue: 2.6.14
-  vue-loader: 15.10.0
+  vue-loader: 17.0.0
   vue-template-compiler: 2.6.14
   webpack: 5.65.0
   webpack-cli: 4.9.1
@@ -26,7 +26,7 @@ devDependencies:
   css-loader: 6.7.1_webpack@5.65.0
   html-webpack-plugin: 5.5.0_webpack@5.65.0
   unplugin-fluent-vue: 0.0.3_webpack@5.65.0
-  vue-loader: 15.10.0_djubfhr2d7bhm6zkgge2lqp65m
+  vue-loader: 17.0.0_webpack@5.65.0
   vue-template-compiler: 2.6.14
   webpack: 5.65.0_webpack-cli@4.9.1
   webpack-cli: 4.9.1_l4frucgzwye2xp2j6ueywlskxm
@@ -205,75 +205,6 @@ packages:
     resolution: {integrity: sha512-NOn5eIcgWLOo6qW8AcuLZ7G8PycXu0xTxxkS6Q18VWFxgPUSOwV0pBj2a/4viNZVu25i7RIB7GttdkAIUUXOOg==}
     dependencies:
       '@types/node': 16.9.6
-    dev: true
-
-  /@vue/component-compiler-utils/3.2.2:
-    resolution: {integrity: sha512-rAYMLmgMuqJFWAOb3Awjqqv5X3Q3hVr4jH/kgrFJpiU0j3a90tnNBplqbj+snzrgZhC9W128z+dtgMifOiMfJg==}
-    dependencies:
-      consolidate: 0.15.1
-      hash-sum: 1.0.2
-      lru-cache: 4.1.5
-      merge-source-map: 1.1.0
-      postcss: 7.0.36
-      postcss-selector-parser: 6.0.6
-      source-map: 0.6.1
-      vue-template-es2015-compiler: 1.9.1
-    optionalDependencies:
-      prettier: 1.19.1
-    transitivePeerDependencies:
-      - arc-templates
-      - atpl
-      - babel-core
-      - bracket-template
-      - coffee-script
-      - dot
-      - dust
-      - dustjs-helpers
-      - dustjs-linkedin
-      - eco
-      - ect
-      - ejs
-      - haml-coffee
-      - hamlet
-      - hamljs
-      - handlebars
-      - hogan.js
-      - htmling
-      - jade
-      - jazz
-      - jqtpl
-      - just
-      - liquid-node
-      - liquor
-      - lodash
-      - marko
-      - mote
-      - mustache
-      - nunjucks
-      - plates
-      - pug
-      - qejs
-      - ractive
-      - razor-tmpl
-      - react
-      - react-dom
-      - slm
-      - squirrelly
-      - swig
-      - swig-templates
-      - teacup
-      - templayed
-      - then-jade
-      - then-pug
-      - tinyliquid
-      - toffee
-      - twig
-      - twing
-      - underscore
-      - vash
-      - velocityjs
-      - walrus
-      - whiskers
     dev: true
 
   /@vue/composition-api/1.4.3_vue@2.6.14:
@@ -527,11 +458,11 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /ansi-styles/3.2.1:
-    resolution: {integrity: sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==}
-    engines: {node: '>=4'}
+  /ansi-styles/4.3.0:
+    resolution: {integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==}
+    engines: {node: '>=8'}
     dependencies:
-      color-convert: 1.9.3
+      color-convert: 2.0.1
     dev: true
 
   /anymatch/3.1.2:
@@ -576,10 +507,6 @@ packages:
   /binary-extensions/2.2.0:
     resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
     engines: {node: '>=8'}
-    dev: true
-
-  /bluebird/3.7.2:
-    resolution: {integrity: sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==}
     dev: true
 
   /body-parser/1.19.0:
@@ -684,13 +611,12 @@ packages:
       nanocolors: 0.1.12
     dev: true
 
-  /chalk/2.4.2:
-    resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
-    engines: {node: '>=4'}
+  /chalk/4.1.2:
+    resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
+    engines: {node: '>=10'}
     dependencies:
-      ansi-styles: 3.2.1
-      escape-string-regexp: 1.0.5
-      supports-color: 5.5.0
+      ansi-styles: 4.3.0
+      supports-color: 7.2.0
     dev: true
 
   /chokidar/3.5.2:
@@ -749,14 +675,15 @@ packages:
       shallow-clone: 3.0.1
     dev: true
 
-  /color-convert/1.9.3:
-    resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
+  /color-convert/2.0.1:
+    resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
+    engines: {node: '>=7.0.0'}
     dependencies:
-      color-name: 1.1.3
+      color-name: 1.1.4
     dev: true
 
-  /color-name/1.1.3:
-    resolution: {integrity: sha512-72fSenhMw2HZMTVHeCA9KCmpEIbzWiQsjN+BHcBbS9vr1mtt+vJjPdksIBNUmKAW8TFUDPJK5SUU3QhE9NEXDw==}
+  /color-name/1.1.4:
+    resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
     dev: true
 
   /colorette/2.0.16:
@@ -806,174 +733,6 @@ packages:
   /connect-history-api-fallback/1.6.0:
     resolution: {integrity: sha512-e54B99q/OUoH64zYYRf3HBP5z24G38h5D3qXu23JGRoigpX5Ss4r9ZnDk3g0Z8uQC2x2lPaJ+UlWBc1ZWBWdLg==}
     engines: {node: '>=0.8'}
-    dev: true
-
-  /consolidate/0.15.1:
-    resolution: {integrity: sha512-DW46nrsMJgy9kqAbPt5rKaCr7uFtpo4mSUvLHIUbJEjm0vo+aY5QLwBUq3FK4tRnJr/X0Psc0C4jf/h+HtXSMw==}
-    engines: {node: '>= 0.10.0'}
-    peerDependencies:
-      arc-templates: ^0.5.3
-      atpl: '>=0.7.6'
-      babel-core: ^6.26.3
-      bracket-template: ^1.1.5
-      coffee-script: ^1.12.7
-      dot: ^1.1.3
-      dust: ^0.3.0
-      dustjs-helpers: ^1.7.4
-      dustjs-linkedin: ^2.7.5
-      eco: ^1.1.0-rc-3
-      ect: ^0.5.9
-      ejs: ^3.1.5
-      haml-coffee: ^1.14.1
-      hamlet: ^0.3.3
-      hamljs: ^0.6.2
-      handlebars: ^4.7.6
-      hogan.js: ^3.0.2
-      htmling: ^0.0.8
-      jade: ^1.11.0
-      jazz: ^0.0.18
-      jqtpl: ~1.1.0
-      just: ^0.1.8
-      liquid-node: ^3.0.1
-      liquor: ^0.0.5
-      lodash: ^4.17.20
-      marko: ^3.14.4
-      mote: ^0.2.0
-      mustache: ^3.0.0
-      nunjucks: ^3.2.2
-      plates: ~0.4.11
-      pug: ^3.0.0
-      qejs: ^3.0.5
-      ractive: ^1.3.12
-      razor-tmpl: ^1.3.1
-      react: ^16.13.1
-      react-dom: ^16.13.1
-      slm: ^2.0.0
-      squirrelly: ^5.1.0
-      swig: ^1.4.2
-      swig-templates: ^2.0.3
-      teacup: ^2.0.0
-      templayed: '>=0.2.3'
-      then-jade: '*'
-      then-pug: '*'
-      tinyliquid: ^0.2.34
-      toffee: ^0.3.6
-      twig: ^1.15.2
-      twing: ^5.0.2
-      underscore: ^1.11.0
-      vash: ^0.13.0
-      velocityjs: ^2.0.1
-      walrus: ^0.10.1
-      whiskers: ^0.4.0
-    peerDependenciesMeta:
-      arc-templates:
-        optional: true
-      atpl:
-        optional: true
-      babel-core:
-        optional: true
-      bracket-template:
-        optional: true
-      coffee-script:
-        optional: true
-      dot:
-        optional: true
-      dust:
-        optional: true
-      dustjs-helpers:
-        optional: true
-      dustjs-linkedin:
-        optional: true
-      eco:
-        optional: true
-      ect:
-        optional: true
-      ejs:
-        optional: true
-      haml-coffee:
-        optional: true
-      hamlet:
-        optional: true
-      hamljs:
-        optional: true
-      handlebars:
-        optional: true
-      hogan.js:
-        optional: true
-      htmling:
-        optional: true
-      jade:
-        optional: true
-      jazz:
-        optional: true
-      jqtpl:
-        optional: true
-      just:
-        optional: true
-      liquid-node:
-        optional: true
-      liquor:
-        optional: true
-      lodash:
-        optional: true
-      marko:
-        optional: true
-      mote:
-        optional: true
-      mustache:
-        optional: true
-      nunjucks:
-        optional: true
-      plates:
-        optional: true
-      pug:
-        optional: true
-      qejs:
-        optional: true
-      ractive:
-        optional: true
-      razor-tmpl:
-        optional: true
-      react:
-        optional: true
-      react-dom:
-        optional: true
-      slm:
-        optional: true
-      squirrelly:
-        optional: true
-      swig:
-        optional: true
-      swig-templates:
-        optional: true
-      teacup:
-        optional: true
-      templayed:
-        optional: true
-      then-jade:
-        optional: true
-      then-pug:
-        optional: true
-      tinyliquid:
-        optional: true
-      toffee:
-        optional: true
-      twig:
-        optional: true
-      twing:
-        optional: true
-      underscore:
-        optional: true
-      vash:
-        optional: true
-      velocityjs:
-        optional: true
-      walrus:
-        optional: true
-      whiskers:
-        optional: true
-    dependencies:
-      bluebird: 3.7.2
     dev: true
 
   /content-disposition/0.5.3:
@@ -1256,11 +1015,6 @@ packages:
     resolution: {integrity: sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=}
     dev: true
 
-  /escape-string-regexp/1.0.5:
-    resolution: {integrity: sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==}
-    engines: {node: '>=0.8.0'}
-    dev: true
-
   /eslint-scope/5.1.1:
     resolution: {integrity: sha512-2NxwbF/hZ0KpepYN0cNbo+FN6XoK7GaHlQhgx/hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw==}
     engines: {node: '>=8.0.0'}
@@ -1537,11 +1291,6 @@ packages:
     resolution: {integrity: sha512-9Qn4yBxelxoh2Ow62nP+Ka/kMnOXRi8BXnRaUwezLNhqelnN49xKz4F/dPP8OYLxLxq6JDtZb2i9XznUQbNPTg==}
     dev: true
 
-  /has-flag/3.0.0:
-    resolution: {integrity: sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==}
-    engines: {node: '>=4'}
-    dev: true
-
   /has-flag/4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
@@ -1566,8 +1315,8 @@ packages:
       function-bind: 1.1.1
     dev: true
 
-  /hash-sum/1.0.2:
-    resolution: {integrity: sha512-fUs4B4L+mlt8/XAtSOGMUO1TXmAelItBPtJG7CyHJfYTdDjwisntGO2JQz7oUsatOY9o68+57eziUVNw/mRHmA==}
+  /hash-sum/2.0.0:
+    resolution: {integrity: sha512-WdZTbAByD+pHfl/g9QSsBIIwy8IT+EsPiKDs0KNX+zSHhdDLFKdZu0BQHljvO+0QI/BasbMSUa8wYNCZTvhslg==}
     dev: true
 
   /he/1.2.0:
@@ -1890,11 +1639,10 @@ packages:
     resolution: {integrity: sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==}
     dev: true
 
-  /json5/1.0.1:
-    resolution: {integrity: sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==}
+  /json5/2.2.1:
+    resolution: {integrity: sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==}
+    engines: {node: '>=6'}
     hasBin: true
-    dependencies:
-      minimist: 1.2.5
     dev: true
 
   /kind-of/6.0.3:
@@ -1907,13 +1655,13 @@ packages:
     engines: {node: '>=6.11.5'}
     dev: true
 
-  /loader-utils/1.4.0:
-    resolution: {integrity: sha512-qH0WSMBtn/oHuwjy/NucEgbx5dbxxnxup9s4PVXJUDHZBQY+s0NWA9rJf53RBnQZxfch7euUui7hpoAPvALZdA==}
-    engines: {node: '>=4.0.0'}
+  /loader-utils/2.0.2:
+    resolution: {integrity: sha512-TM57VeHptv569d/GKh6TAYdzKblwDNiumOdkFnejjD0XwTH87K90w3O7AiJRqdQoXygvi1VQTJTLGhJl7WqA7A==}
+    engines: {node: '>=8.9.0'}
     dependencies:
       big.js: 5.2.2
       emojis-list: 3.0.0
-      json5: 1.0.1
+      json5: 2.2.1
     dev: true
 
   /locate-path/5.0.0:
@@ -1931,13 +1679,6 @@ packages:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
       tslib: 2.3.1
-    dev: true
-
-  /lru-cache/4.1.5:
-    resolution: {integrity: sha512-sWZlbEP2OsHNkXrMl5GYk/jKk70MBng6UU4YI/qGDYbgf6YbP4EvmqISbXCoJiRKs+1bSpFHVgQxvJ17F2li5g==}
-    dependencies:
-      pseudomap: 1.0.2
-      yallist: 2.1.2
     dev: true
 
   /lru-cache/6.0.0:
@@ -1968,12 +1709,6 @@ packages:
 
   /merge-descriptors/1.0.1:
     resolution: {integrity: sha1-sAqqVW3YtEVoFQ7J0blT8/kMu2E=}
-    dev: true
-
-  /merge-source-map/1.1.0:
-    resolution: {integrity: sha512-Qkcp7P2ygktpMPh2mCQZaf3jhN6D3Z/qVZHSdWvQ+2Ef5HgRAPBO57A77+ENm0CPx2+1Ce/MYKi3ymqdfuqibw==}
-    dependencies:
-      source-map: 0.6.1
     dev: true
 
   /merge-stream/2.0.0:
@@ -2347,15 +2082,6 @@ packages:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
     dev: true
 
-  /postcss/7.0.36:
-    resolution: {integrity: sha512-BebJSIUMwJHRH0HAQoxN4u1CN86glsrwsW0q7T+/m44eXOUAxSNdHRkNZPYz5vVUbg17hFgOQDE7fZk7li3pZw==}
-    engines: {node: '>=6.0.0'}
-    dependencies:
-      chalk: 2.4.2
-      source-map: 0.6.1
-      supports-color: 6.1.0
-    dev: true
-
   /postcss/8.4.14:
     resolution: {integrity: sha512-E398TUmfAYFPBSdzgeieK2Y1+1cpdxJx8yXbK/m57nRhKSmk1GB2tO4lbLBtlkfPQTDKfe4Xqv1ASWPpayPEig==}
     engines: {node: ^10 || ^12 || >=14}
@@ -2364,14 +2090,6 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
     dev: true
-
-  /prettier/1.19.1:
-    resolution: {integrity: sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==}
-    engines: {node: '>=4'}
-    hasBin: true
-    requiresBuild: true
-    dev: true
-    optional: true
 
   /pretty-error/4.0.0:
     resolution: {integrity: sha512-AoJ5YMAcXKYxKhuJGdcvse+Voc6v1RgnsR3nWcYU7q4t6z0Q6T86sv5Zq8VIRbOWWFpvdGE83LtdSMNd+6Y0xw==}
@@ -2390,10 +2108,6 @@ packages:
     dependencies:
       forwarded: 0.2.0
       ipaddr.js: 1.9.1
-    dev: true
-
-  /pseudomap/1.0.2:
-    resolution: {integrity: sha512-b/YwNhb8lk1Zz2+bXXpS/LK9OisiZZ1SNsSLxN1x2OXVEhW2Ckr/7mWE5vrC1ZTiJlD9g19jWszTmJsB+oEpFQ==}
     dev: true
 
   /punycode/2.1.1:
@@ -2775,18 +2489,11 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /supports-color/5.5.0:
-    resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==}
-    engines: {node: '>=4'}
+  /supports-color/7.2.0:
+    resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
+    engines: {node: '>=8'}
     dependencies:
-      has-flag: 3.0.0
-    dev: true
-
-  /supports-color/6.1.0:
-    resolution: {integrity: sha512-qe1jfm1Mg7Nq/NSh6XE24gPXROEVsWHxC1LIx//XNlD9iw7YZQGjZNjYN7xGaEG6iKdA8EtNFW6R0gjnVXp+wQ==}
-    engines: {node: '>=6'}
-    dependencies:
-      has-flag: 3.0.0
+      has-flag: 4.0.0
     dev: true
 
   /supports-color/8.1.1:
@@ -2952,95 +2659,15 @@ packages:
       vue: 2.6.14
     dev: false
 
-  /vue-hot-reload-api/2.3.4:
-    resolution: {integrity: sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==}
-    dev: true
-
-  /vue-loader/15.10.0_djubfhr2d7bhm6zkgge2lqp65m:
-    resolution: {integrity: sha512-VU6tuO8eKajrFeBzMssFUP9SvakEeeSi1BxdTH5o3+1yUyrldp8IERkSdXlMI2t4kxF2sqYUDsQY+WJBxzBmZg==}
+  /vue-loader/17.0.0_webpack@5.65.0:
+    resolution: {integrity: sha512-OWSXjrzIvbF2LtOUmxT3HYgwwubbfFelN8PAP9R9dwpIkj48TVioHhWWSx7W7fk+iF5cgg3CBJRxwTdtLU4Ecg==}
     peerDependencies:
-      '@vue/compiler-sfc': ^3.0.8
-      cache-loader: '*'
-      css-loader: '*'
-      vue-template-compiler: '*'
-      webpack: ^3.0.0 || ^4.1.0 || ^5.0.0-0
-    peerDependenciesMeta:
-      '@vue/compiler-sfc':
-        optional: true
-      cache-loader:
-        optional: true
-      vue-template-compiler:
-        optional: true
+      webpack: ^4.1.0 || ^5.0.0-0
     dependencies:
-      '@vue/component-compiler-utils': 3.2.2
-      css-loader: 6.7.1_webpack@5.65.0
-      hash-sum: 1.0.2
-      loader-utils: 1.4.0
-      vue-hot-reload-api: 2.3.4
-      vue-style-loader: 4.1.3
-      vue-template-compiler: 2.6.14
+      chalk: 4.1.2
+      hash-sum: 2.0.0
+      loader-utils: 2.0.2
       webpack: 5.65.0_webpack-cli@4.9.1
-    transitivePeerDependencies:
-      - arc-templates
-      - atpl
-      - babel-core
-      - bracket-template
-      - coffee-script
-      - dot
-      - dust
-      - dustjs-helpers
-      - dustjs-linkedin
-      - eco
-      - ect
-      - ejs
-      - haml-coffee
-      - hamlet
-      - hamljs
-      - handlebars
-      - hogan.js
-      - htmling
-      - jade
-      - jazz
-      - jqtpl
-      - just
-      - liquid-node
-      - liquor
-      - lodash
-      - marko
-      - mote
-      - mustache
-      - nunjucks
-      - plates
-      - pug
-      - qejs
-      - ractive
-      - razor-tmpl
-      - react
-      - react-dom
-      - slm
-      - squirrelly
-      - swig
-      - swig-templates
-      - teacup
-      - templayed
-      - then-jade
-      - then-pug
-      - tinyliquid
-      - toffee
-      - twig
-      - twing
-      - underscore
-      - vash
-      - velocityjs
-      - walrus
-      - whiskers
-    dev: true
-
-  /vue-style-loader/4.1.3:
-    resolution: {integrity: sha512-sFuh0xfbtpRlKfm39ss/ikqs9AbKCoXZBpHeVZ8Tx650o0k0q/YCM7FRvigtxpACezfq6af+a7JeqVTWvncqDg==}
-    dependencies:
-      hash-sum: 1.0.2
-      loader-utils: 1.4.0
     dev: true
 
   /vue-template-compiler/2.6.14:
@@ -3048,10 +2675,6 @@ packages:
     dependencies:
       de-indent: 1.0.2
       he: 1.2.0
-    dev: true
-
-  /vue-template-es2015-compiler/1.9.1:
-    resolution: {integrity: sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==}
     dev: true
 
   /vue/2.6.14:
@@ -3275,10 +2898,6 @@ packages:
         optional: true
       utf-8-validate:
         optional: true
-    dev: true
-
-  /yallist/2.1.2:
-    resolution: {integrity: sha512-ncTzHV7NvsQZkYe1DW7cbDLm0YpzHmZF5r/iyP3ZnQtMiJ+pjzisCiMNI+Sj+xQF5pXhSHxSB3uDbsBTzY/c2A==}
     dev: true
 
   /yallist/4.0.0:
