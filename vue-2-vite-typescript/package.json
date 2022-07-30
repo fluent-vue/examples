@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "@fluent/bundle": "0.17.1",
-    "@vue/composition-api": "1.7.0",
     "fluent-vue": "3.1.0",
     "vue": "2.7.8"
   },
