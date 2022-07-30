@@ -17,11 +17,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.0.2
       - name: Setup Node.js
-        uses: actions/setup-node@v3.3.0
+        uses: actions/setup-node@v3.4.1
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2.0.1
+        uses: pnpm/action-setup@v2.2.2
         with:
-          version: 6.x.x
+          version: 7.x.x
 
       - name: Install
         run: pnpm i

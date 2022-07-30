@@ -9,15 +9,15 @@
   "dependencies": {
     "@fluent/bundle": "0.17.1",
     "@fluent/dedent": "0.4.0",
-    "core-js": "3.20.2",
-    "fluent-vue": "3.0.0",
-    "vue": "3.2.26"
+    "core-js": "3.24.1",
+    "fluent-vue": "3.1.0",
+    "vue": "3.2.37"
   },
   "devDependencies": {
     "@babel/core": "7.18.9",
     "@vue/cli-plugin-babel": "5.0.8",
     "@vue/cli-service": "5.0.8",
-    "@vue/compiler-sfc": "3.2.26",
+    "@vue/compiler-sfc": "3.2.37",
     "unplugin-fluent-vue": "0.0.3"
   },
   "browserslist": [
