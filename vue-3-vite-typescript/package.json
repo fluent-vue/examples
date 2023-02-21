@@ -9,14 +9,14 @@
   },
   "dependencies": {
     "@fluent/bundle": "0.17.1",
-    "fluent-vue": "3.1.0",
-    "vue": "3.2.37"
+    "fluent-vue": "3.2.1",
+    "vue": "3.2.47"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "4.0.0",
-    "@vue/compiler-sfc": "3.2.37",
+    "@vue/compiler-sfc": "3.2.47",
     "unplugin-fluent-vue": "1.1.2",
-    "typescript": "4.7.4",
+    "typescript": "4.9.5",
     "vite": "4.1.3",
     "vue-tsc": "1.1.5"
   }
