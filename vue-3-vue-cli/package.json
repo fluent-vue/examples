@@ -18,7 +18,7 @@
     "@vue/cli-plugin-babel": "5.0.8",
     "@vue/cli-service": "5.0.8",
     "@vue/compiler-sfc": "3.2.37",
-    "unplugin-fluent-vue": "0.0.3"
+    "unplugin-fluent-vue": "1.1.2"
   },
   "browserslist": [
     "last 1 Chrome versions"
