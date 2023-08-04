@@ -7,18 +7,18 @@
     "build": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build"
   },
   "dependencies": {
-    "@fluent/bundle": "0.17.1",
-    "@fluent/dedent": "0.4.0",
-    "core-js": "3.28.0",
-    "fluent-vue": "3.2.1",
-    "vue": "3.2.47"
+    "@fluent/bundle": "0.18.0",
+    "@fluent/dedent": "0.5.0",
+    "core-js": "3.32.0",
+    "fluent-vue": "3.4.0",
+    "vue": "3.3.4"
   },
   "devDependencies": {
-    "@babel/core": "7.21.0",
+    "@babel/core": "7.22.9",
     "@vue/cli-plugin-babel": "5.0.8",
     "@vue/cli-service": "5.0.8",
-    "@vue/compiler-sfc": "3.2.47",
-    "unplugin-fluent-vue": "1.1.2"
+    "@vue/compiler-sfc": "3.3.4",
+    "unplugin-fluent-vue": "1.1.4"
   },
   "browserslist": [
     "last 1 Chrome versions"
