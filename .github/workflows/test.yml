@@ -23,8 +23,5 @@ jobs:
         with:
           version: 8.x.x
 
-      - name: Install
-        run: pnpm i
-
       - name: Test
         run: node ./build-examples.mjs

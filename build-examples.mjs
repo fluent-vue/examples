@@ -1,7 +1,15 @@
-import { readdirSync, readFileSync, existsSync } from 'fs'
-import { execa } from 'execa'
+import { readdirSync, readFileSync, existsSync } from 'node:fs'
+import { spawn } from 'node:child_process'
 
-const id = Math.random().toString(36).substr(2, 9)
+function exec(command, params, ops) {
+  let p = spawn(command, params, ops);
+
+  return new Promise((resolveFunc) => {
+    p.on("exit", (code) => {
+      resolveFunc(code);
+    });
+  });
+}
 
 const examples = readdirSync('./')
   .filter((f) => existsSync(`./${f}/package.json`))
@@ -13,13 +21,13 @@ const examples = readdirSync('./')
 async function buildExamples () {
   for (const example of examples) {
     console.log(`building ${example.folder}...`)
-    await execa('pnpm', ['i'], { stdio: 'inherit', cwd: example.folder })
-    await execa('pnpm', ['build'], { stdio: 'inherit', cwd: example.folder })
+    await exec('pnpm', ['i'], { stdio: 'inherit', cwd: example.folder })
+    await exec('pnpm', ['build'], { stdio: 'inherit', cwd: example.folder })
   }
 
   for (const typescriptExample of examples.filter((ex) => ex.package.scripts.typecheck != null)) {
     console.log(`typechecking ${typescriptExample.folder}...`)
-    await execa('pnpm', ['typecheck'], { stdio: 'inherit', cwd: typescriptExample.folder })
+    await exec('pnpm', ['typecheck'], { stdio: 'inherit', cwd: typescriptExample.folder })
   }
 }
 
