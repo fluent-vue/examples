@@ -8,16 +8,16 @@
     "typecheck": "vue-tsc"
   },
   "dependencies": {
-    "@fluent/bundle": "0.17.1",
-    "fluent-vue": "3.2.1",
+    "@fluent/bundle": "0.18.0",
+    "fluent-vue": "3.4.0",
     "vue": "2.7.14"
   },
   "devDependencies": {
     "typescript": "5.1.6",
-    "unplugin-fluent-vue": "1.1.2",
+    "unplugin-fluent-vue": "1.1.4",
     "vite": "4.4.8",
     "vite-plugin-vue2": "2.0.3",
     "vue-template-compiler": "2.7.14",
-    "vue-tsc": "1.1.5"
+    "vue-tsc": "1.8.8"
   }
 }
