@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@vitejs/plugin-vue':
-    specifier: 4.5.2
-    version: 4.5.2(vite@4.5.1)(vue@3.3.4)
+    specifier: 4.6.2
+    version: 4.6.2(vite@4.5.3)(vue@3.3.4)
   '@vue/compiler-sfc':
     specifier: 3.3.4
     version: 3.3.4
@@ -29,8 +29,8 @@ devDependencies:
     specifier: 1.1.4
     version: 1.1.4
   vite:
-    specifier: 4.5.1
-    version: 4.5.1
+    specifier: 4.5.3
+    version: 4.5.3
   vue-tsc:
     specifier: 2.0.10
     version: 2.0.10(typescript@5.1.6)
@@ -301,14 +301,14 @@ packages:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
     dev: true
 
-  /@vitejs/plugin-vue@4.5.2(vite@4.5.1)(vue@3.3.4):
-    resolution: {integrity: sha512-UGR3DlzLi/SaVBPX0cnSyE37vqxU3O6chn8l0HJNzQzDia6/Au2A4xKv+iIJW8w2daf80G7TYHhi1pAUjdZ0bQ==}
+  /@vitejs/plugin-vue@4.6.2(vite@4.5.3)(vue@3.3.4):
+    resolution: {integrity: sha512-kqf7SGFoG+80aZG6Pf+gsZIVvGSCKE98JbiWqcCV9cThtg91Jav0yvYFC9Zb+jKetNGF6ZKeoaxgZfND21fWKw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0 || ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.5.1
+      vite: 4.5.3
       vue: 3.3.4
     dev: true
 
@@ -735,8 +735,8 @@ packages:
       webpack-virtual-modules: 0.5.0
     dev: true
 
-  /vite@4.5.1:
-    resolution: {integrity: sha512-AXXFaAJ8yebyqzoNB9fu2pHoo/nWX+xZlaRwoeYUxEqBO+Zj4msE5G+BhGBll9lYEKv9Hfks52PAF2X7qDYXQA==}
+  /vite@4.5.3:
+    resolution: {integrity: sha512-kQL23kMeX92v3ph7IauVkXkikdDRsYMGTVl5KY2E9OY4ONLvkHf04MDTbnfo6NKxZiDLWzVpP5oTa8hQD8U3dg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
