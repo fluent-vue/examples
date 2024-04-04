@@ -15,6 +15,13 @@
       ]
     },
     {
+      "groupName": "fluent-vue",
+      "matchPackageNames": [
+        "fluent-vue",
+        "unplugin-fluent-vue"
+      ]
+    },
+    {
       "matchPackageNames": [
         "vue",
         "vue-loader"
