@@ -12,8 +12,8 @@ dependencies:
     specifier: 0.5.0
     version: 0.5.0
   fluent-vue:
-    specifier: 3.7.0
-    version: 3.7.0(@fluent/bundle@0.18.0)(vue@2.7.16)
+    specifier: 3.7.1
+    version: 3.7.1(@fluent/bundle@0.18.0)(vue@2.7.16)
   vue:
     specifier: 2.7.16
     version: 2.7.16
@@ -1466,8 +1466,8 @@ packages:
     hasBin: true
     dev: true
 
-  /fluent-vue@3.7.0(@fluent/bundle@0.18.0)(vue@2.7.16):
-    resolution: {integrity: sha512-1fR7W0M9p6ytQDsJkaPip9naddGc5GH7rxIE63YDPsXPRqtykofjAZJ849YBxeBWgJ+ZVePQ1uJxoXqWsYjwkw==}
+  /fluent-vue@3.7.1(@fluent/bundle@0.18.0)(vue@2.7.16):
+    resolution: {integrity: sha512-5Eu3HOKj/QcKG2lBM0nmOgBNcYZDuW62zclr79gbplkK/yknOPr6KbLS97ax1oov5sLj0q61N0Wizp5aexc65g==}
     peerDependencies:
       '@fluent/bundle': '>=0.17.0'
       '@vue/composition-api': '>=1.0.0-rc.1'
