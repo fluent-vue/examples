@@ -9,8 +9,8 @@ dependencies:
     specifier: 0.18.0
     version: 0.18.0
   fluent-vue:
-    specifier: 3.7.0
-    version: 3.7.0(@fluent/bundle@0.18.0)(vue@3.5.13)
+    specifier: 3.7.2
+    version: 3.7.2(@fluent/bundle@0.18.0)(vue@3.5.13)
   vue:
     specifier: 3.5.13
     version: 3.5.13(typescript@5.8.2)
@@ -26,8 +26,8 @@ devDependencies:
     specifier: 5.8.2
     version: 5.8.2
   unplugin-fluent-vue:
-    specifier: 1.4.0
-    version: 1.4.0(@fluent/bundle@0.18.0)
+    specifier: 1.4.1
+    version: 1.4.1(@fluent/bundle@0.18.0)
   vite:
     specifier: 6.2.2
     version: 6.2.2
@@ -41,22 +41,9 @@ packages:
     resolution: {integrity: sha512-4A/SCr/2KLd5jrtOMFzaKjVtAei3+2r/NChoBNoZ3EyP/+GlhoaEGoWOZUmFmoITP7zOJyHIMm+DYRd8o3PvHA==}
     engines: {node: '>=6.9.0'}
 
-  /@babel/helper-validator-identifier@7.15.7:
-    resolution: {integrity: sha512-K4JvCtQqad9OY2+yTU8w+E82ywk/fe+ELNlt1G8z3bVGlZfn/hOcQQsUhGhW/N+tb3fxK800wLtKOE/aM0m72w==}
-    engines: {node: '>=6.9.0'}
-    dev: true
-
   /@babel/helper-validator-identifier@7.25.9:
     resolution: {integrity: sha512-Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==}
     engines: {node: '>=6.9.0'}
-
-  /@babel/parser@7.24.4:
-    resolution: {integrity: sha512-zTvEBcghmeBma9QIGunWevvBAp4/Qu9Bdq+2k0Ot4fVMD6v3dsC9WOcRSKk7tRRyBM/53yKMJko9xOatGQAwSg==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
-    dependencies:
-      '@babel/types': 7.15.6
-    dev: true
 
   /@babel/parser@7.26.10:
     resolution: {integrity: sha512-6aQR2zGE/QFi8JpDLjUZEPYOs7+mhKXm86VaKFiLP35JQwQb6bwUE+XbvkH0EptsYhbNBSUGaUBLKqxH1xSgsA==}
@@ -64,14 +51,6 @@ packages:
     hasBin: true
     dependencies:
       '@babel/types': 7.26.10
-
-  /@babel/types@7.15.6:
-    resolution: {integrity: sha512-BPU+7QhqNjmWyDO0/vitH/CuhpV8ZmK1wpKva8nuyNF5MJfuRNWMc+hc14+u9xT93kvykMdncrJT19h74uB1Ig==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-validator-identifier': 7.15.7
-      to-fast-properties: 2.0.0
-    dev: true
 
   /@babel/types@7.26.10:
     resolution: {integrity: sha512-emqcG3vHrpxUKTrxcblR36dcrcoRDvKmnL/dCL6ZsHaShW80qxCAcNhzQZrpeM765VzEos+xOi4s+r4IXzTwdQ==}
@@ -323,10 +302,6 @@ packages:
     engines: {node: '>=14.0.0', npm: '>=7.0.0'}
     dev: true
 
-  /@jridgewell/sourcemap-codec@1.4.15:
-    resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
-    dev: true
-
   /@jridgewell/sourcemap-codec@1.5.0:
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
 
@@ -529,16 +504,6 @@ packages:
       vscode-uri: 3.1.0
     dev: true
 
-  /@vue/compiler-core@3.4.21:
-    resolution: {integrity: sha512-MjXawxZf2SbZszLPYxaFCjxfibYrzr3eYbKxwpLR9EQN+oaziSu3qKVbwBERj1IFIB8OLUewxB5m/BFzi613og==}
-    dependencies:
-      '@babel/parser': 7.24.4
-      '@vue/shared': 3.4.21
-      entities: 4.5.0
-      estree-walker: 2.0.2
-      source-map-js: 1.2.0
-    dev: true
-
   /@vue/compiler-core@3.5.13:
     resolution: {integrity: sha512-oOdAkwqUfW1WqpwSYJce06wvt6HljgY3fGeM9NcVA1HaYOij3mZG9Rkysn0OHuyUAGMbEbARIpsG+LPVlBJ5/Q==}
     dependencies:
@@ -651,10 +616,6 @@ packages:
       '@vue/shared': 3.5.13
       vue: 3.5.13(typescript@5.8.2)
 
-  /@vue/shared@3.4.21:
-    resolution: {integrity: sha512-PuJe7vDIi6VYSinuEbUIQgMIRZGgM8e4R+G+/dQTk0X1NEdvgvvgv7m+rfmDH1gZzyA1OjjoWskvHlfRNfQf3g==}
-    dev: true
-
   /@vue/shared@3.5.13:
     resolution: {integrity: sha512-/hnE/qP5ZoGpol0a5mDi45bOd7t3tjYJBjsgCsivow7D48cJeV5l05RD82lPqi7gRiphZM37rnhW1l6ZoCNNnQ==}
 
@@ -741,8 +702,8 @@ packages:
   /estree-walker@2.0.2:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
 
-  /fluent-vue@3.7.0(@fluent/bundle@0.18.0)(vue@3.5.13):
-    resolution: {integrity: sha512-1fR7W0M9p6ytQDsJkaPip9naddGc5GH7rxIE63YDPsXPRqtykofjAZJ849YBxeBWgJ+ZVePQ1uJxoXqWsYjwkw==}
+  /fluent-vue@3.7.2(@fluent/bundle@0.18.0)(vue@3.5.13):
+    resolution: {integrity: sha512-gzKBdTQBqvhGQksL+iXDJrw6xA+1mc0oXCMe4Cg25Y2ynFQZCfAJQNM5i5JwStcYEWImWcmAqqb12W27TMZwlQ==}
     peerDependencies:
       '@fluent/bundle': '>=0.17.0'
       '@vue/composition-api': '>=1.0.0-rc.1'
@@ -785,13 +746,6 @@ packages:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
-
-  /magic-string@0.30.2:
-    resolution: {integrity: sha512-lNZdu7pewtq/ZvWUp9Wpf/x7WzMTsR26TWV03BRZrXFsv+BI6dy8RAiKgm1uM/kyR0rCfUcqvOlXKG66KhIGug==}
-    engines: {node: '>=12'}
-    dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.15
-    dev: true
 
   /minimatch@9.0.3:
     resolution: {integrity: sha512-RHiac9mvaRw0x3AYRgDC1CxAP7HTcNrrECeA8YYJeWnpo+2Q5CegtZjaotWTWxDG3UeGA1coE05iH1mPjT/2mg==}
@@ -879,11 +833,6 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /source-map-js@1.2.0:
-    resolution: {integrity: sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==}
-    engines: {node: '>=0.10.0'}
-    dev: true
-
   /source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
@@ -900,18 +849,13 @@ packages:
       copy-anything: 3.0.5
     dev: false
 
-  /to-fast-properties@2.0.0:
-    resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
-    engines: {node: '>=4'}
-    dev: true
-
   /typescript@5.8.2:
     resolution: {integrity: sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
-  /unplugin-fluent-vue@1.4.0(@fluent/bundle@0.18.0):
-    resolution: {integrity: sha512-87EAmf39TUfLtMJbWO6riLVttilhvw7c915MYdkSBKTWvnHkCVXeQbmS0YUKGmVlObjldm+xLFO5gzJWLC/7Sw==}
+  /unplugin-fluent-vue@1.4.1(@fluent/bundle@0.18.0):
+    resolution: {integrity: sha512-MktKWZP2Tub0pVkggM4yvu3x/kL5ebjNcDe+dgZBFD0fhTYcQNlbMZ520EIQTnx0MA4aSh1kt0cW+wgb2dbWTA==}
     peerDependencies:
       '@fluent/bundle': '*'
       '@nuxt/kit': ^3
@@ -922,8 +866,8 @@ packages:
       '@fluent/bundle': 0.18.0
       '@fluent/syntax': 0.19.0
       '@rollup/pluginutils': 5.0.2
-      '@vue/compiler-core': 3.4.21
-      magic-string: 0.30.2
+      '@vue/compiler-core': 3.5.13
+      magic-string: 0.30.17
       unplugin: 2.2.0
     transitivePeerDependencies:
       - rollup
