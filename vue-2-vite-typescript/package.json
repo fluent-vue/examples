@@ -15,7 +15,7 @@
   "devDependencies": {
     "typescript": "5.8.2",
     "unplugin-fluent-vue": "1.4.1",
-    "vite": "6.2.2",
+    "vite": "6.3.5",
     "vite-plugin-vue2": "2.0.3",
     "vue-template-compiler": "2.7.16",
     "vue-tsc": "2.2.8"
