@@ -12,8 +12,8 @@ dependencies:
     specifier: 0.5.0
     version: 0.5.0
   fluent-vue:
-    specifier: 3.7.0
-    version: 3.7.0(@fluent/bundle@0.18.0)(vue@2.7.16)
+    specifier: 3.7.2
+    version: 3.7.2(@fluent/bundle@0.18.0)(vue@2.7.16)
   vue:
     specifier: 2.7.16
     version: 2.7.16
@@ -26,8 +26,8 @@ devDependencies:
     specifier: 5.6.3
     version: 5.6.3(webpack@5.98.0)
   unplugin-fluent-vue:
-    specifier: 1.4.0
-    version: 1.4.0(@fluent/bundle@0.18.0)
+    specifier: 1.4.1
+    version: 1.4.1(@fluent/bundle@0.18.0)
   vue-loader:
     specifier: 15.11.1
     version: 15.11.1(css-loader@7.1.2)(vue-template-compiler@2.7.16)(webpack@5.98.0)
@@ -157,7 +157,7 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@types/estree': 1.0.0
+      '@types/estree': 1.0.6
       estree-walker: 2.0.2
       picomatch: 2.3.1
     dev: true
@@ -200,10 +200,6 @@ packages:
     dependencies:
       '@types/estree': 1.0.6
       '@types/json-schema': 7.0.9
-    dev: true
-
-  /@types/estree@1.0.0:
-    resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
     dev: true
 
   /@types/estree@1.0.6:
@@ -1466,8 +1462,8 @@ packages:
     hasBin: true
     dev: true
 
-  /fluent-vue@3.7.0(@fluent/bundle@0.18.0)(vue@2.7.16):
-    resolution: {integrity: sha512-1fR7W0M9p6ytQDsJkaPip9naddGc5GH7rxIE63YDPsXPRqtykofjAZJ849YBxeBWgJ+ZVePQ1uJxoXqWsYjwkw==}
+  /fluent-vue@3.7.2(@fluent/bundle@0.18.0)(vue@2.7.16):
+    resolution: {integrity: sha512-gzKBdTQBqvhGQksL+iXDJrw6xA+1mc0oXCMe4Cg25Y2ynFQZCfAJQNM5i5JwStcYEWImWcmAqqb12W27TMZwlQ==}
     peerDependencies:
       '@fluent/bundle': '>=0.17.0'
       '@vue/composition-api': '>=1.0.0-rc.1'
@@ -2798,8 +2794,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /unplugin-fluent-vue@1.4.0(@fluent/bundle@0.18.0):
-    resolution: {integrity: sha512-87EAmf39TUfLtMJbWO6riLVttilhvw7c915MYdkSBKTWvnHkCVXeQbmS0YUKGmVlObjldm+xLFO5gzJWLC/7Sw==}
+  /unplugin-fluent-vue@1.4.1(@fluent/bundle@0.18.0):
+    resolution: {integrity: sha512-MktKWZP2Tub0pVkggM4yvu3x/kL5ebjNcDe+dgZBFD0fhTYcQNlbMZ520EIQTnx0MA4aSh1kt0cW+wgb2dbWTA==}
     peerDependencies:
       '@fluent/bundle': '*'
       '@nuxt/kit': ^3

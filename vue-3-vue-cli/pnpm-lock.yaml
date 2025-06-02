@@ -15,8 +15,8 @@ dependencies:
     specifier: 3.41.0
     version: 3.41.0
   fluent-vue:
-    specifier: 3.7.0
-    version: 3.7.0(@fluent/bundle@0.18.0)(vue@3.5.13)
+    specifier: 3.7.2
+    version: 3.7.2(@fluent/bundle@0.18.0)(vue@3.5.13)
   vue:
     specifier: 3.5.13
     version: 3.5.13
@@ -35,8 +35,8 @@ devDependencies:
     specifier: 3.5.13
     version: 3.5.13
   unplugin-fluent-vue:
-    specifier: 1.4.0
-    version: 1.4.0(@fluent/bundle@0.18.0)
+    specifier: 1.4.1
+    version: 1.4.1(@fluent/bundle@0.18.0)
 
 packages:
 
@@ -3900,8 +3900,8 @@ packages:
       path-exists: 4.0.0
     dev: true
 
-  /fluent-vue@3.7.0(@fluent/bundle@0.18.0)(vue@3.5.13):
-    resolution: {integrity: sha512-1fR7W0M9p6ytQDsJkaPip9naddGc5GH7rxIE63YDPsXPRqtykofjAZJ849YBxeBWgJ+ZVePQ1uJxoXqWsYjwkw==}
+  /fluent-vue@3.7.2(@fluent/bundle@0.18.0)(vue@3.5.13):
+    resolution: {integrity: sha512-gzKBdTQBqvhGQksL+iXDJrw6xA+1mc0oXCMe4Cg25Y2ynFQZCfAJQNM5i5JwStcYEWImWcmAqqb12W27TMZwlQ==}
     peerDependencies:
       '@fluent/bundle': '>=0.17.0'
       '@vue/composition-api': '>=1.0.0-rc.1'
@@ -4630,13 +4630,6 @@ packages:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
-
-  /magic-string@0.30.2:
-    resolution: {integrity: sha512-lNZdu7pewtq/ZvWUp9Wpf/x7WzMTsR26TWV03BRZrXFsv+BI6dy8RAiKgm1uM/kyR0rCfUcqvOlXKG66KhIGug==}
-    engines: {node: '>=12'}
-    dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.15
-    dev: true
 
   /make-dir@3.1.0:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
@@ -6579,7 +6572,7 @@ packages:
     hasBin: true
     dependencies:
       '@jridgewell/source-map': 0.3.2
-      acorn: 8.10.0
+      acorn: 8.14.0
       commander: 2.20.3
       source-map-support: 0.5.20
     dev: true
@@ -6691,8 +6684,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /unplugin-fluent-vue@1.4.0(@fluent/bundle@0.18.0):
-    resolution: {integrity: sha512-87EAmf39TUfLtMJbWO6riLVttilhvw7c915MYdkSBKTWvnHkCVXeQbmS0YUKGmVlObjldm+xLFO5gzJWLC/7Sw==}
+  /unplugin-fluent-vue@1.4.1(@fluent/bundle@0.18.0):
+    resolution: {integrity: sha512-MktKWZP2Tub0pVkggM4yvu3x/kL5ebjNcDe+dgZBFD0fhTYcQNlbMZ520EIQTnx0MA4aSh1kt0cW+wgb2dbWTA==}
     peerDependencies:
       '@fluent/bundle': '*'
       '@nuxt/kit': ^3
@@ -6704,7 +6697,7 @@ packages:
       '@fluent/syntax': 0.19.0
       '@rollup/pluginutils': 5.0.2
       '@vue/compiler-core': 3.5.13
-      magic-string: 0.30.2
+      magic-string: 0.30.17
       unplugin: 2.2.0
     transitivePeerDependencies:
       - rollup

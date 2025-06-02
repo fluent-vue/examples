@@ -9,12 +9,12 @@
   },
   "dependencies": {
     "@fluent/bundle": "0.18.0",
-    "fluent-vue": "3.7.0",
+    "fluent-vue": "3.7.2",
     "vue": "2.7.16"
   },
   "devDependencies": {
     "typescript": "5.8.2",
-    "unplugin-fluent-vue": "1.4.0",
+    "unplugin-fluent-vue": "1.4.1",
     "vite": "6.2.2",
     "vite-plugin-vue2": "2.0.3",
     "vue-template-compiler": "2.7.16",
