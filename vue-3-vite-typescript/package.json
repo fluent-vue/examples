@@ -18,6 +18,6 @@
     "unplugin-fluent-vue": "1.4.1",
     "typescript": "5.8.2",
     "vite": "7.0.3",
-    "vue-tsc": "2.2.8"
+    "vue-tsc": "3.0.1"
   }
 }
