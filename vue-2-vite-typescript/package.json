@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@fluent/bundle": "0.18.0",
-    "fluent-vue": "3.7.2",
+    "fluent-vue": "3.8.1",
     "vue": "2.7.16"
   },
   "devDependencies": {
