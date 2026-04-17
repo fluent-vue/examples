@@ -13,7 +13,7 @@
     "vue": "2.7.16"
   },
   "devDependencies": {
-    "typescript": "5.8.2",
+    "typescript": "6.0.3",
     "unplugin-fluent-vue": "1.4.1",
     "vite": "7.0.3",
     "vite-plugin-vue2": "2.0.3",
